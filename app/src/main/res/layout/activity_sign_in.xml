@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="32dp"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_fileName="lottie/cloud_loader.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_width="128dp"
+            android:layout_height="128dp" />
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/righteous_regular"
+            android:layout_marginTop="16dp"
+            android:textSize="40sp"
+            android:text="@string/wecare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Sign in to continue :)"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/signInEmailIdEditText"
+            android:hint="EMAIL ADDRESS"
+            android:layout_marginTop="40dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_marginTop="32dp"
+            android:id="@+id/signInPasswordEditText"
+            android:hint="PASSWORD"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textPassword"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/signInSignUpTextView"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="Don't have an account? Sign Up"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/signInButton"
+        android:src="@drawable/ic_navigate_next_white_24dp"
+        app:elevation="24dp"
+        app:rippleColor="@color/colorPrimary"
+        android:focusable="true"
+        android:clickable="true"
+        android:tint="@color/colorAccent"
+        android:alpha="0.75"
+        android:layout_margin="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fabSize="normal"
+        app:backgroundTint="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

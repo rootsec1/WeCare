@@ -1,0 +1,328 @@
+{
+  "project_info": {
+    "project_number": "629755735207",
+    "firebase_url": "https://musicx-46c2d.firebaseio.com",
+    "project_id": "musicx-46c2d",
+    "storage_bucket": "musicx-46c2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:2d200fd3fc03854a",
+        "android_client_info": {
+          "package_name": "io.github.abhishekwl.dcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-iplr0ln4h4vs7rbanksv8o51c8c1gdqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.abhishekwl.dcloud",
+            "certificate_hash": "207bbeb16e56c01fa4a5c87ed316fbda1d5493ec"
+          }
+        },
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:cb205aad78dc6ae5",
+        "android_client_info": {
+          "package_name": "io.github.abhishekwl.electricsheep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-v5tab933gatl4tpkne42d3hp055pleh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.abhishekwl.electricsheep",
+            "certificate_hash": "4f632a64caa973422d79e900c9d70e08f6df986d"
+          }
+        },
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:a80a1a82a3131639",
+        "android_client_info": {
+          "package_name": "io.github.abhishekwl.electricsheepb1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:88915e4da1b674a5",
+        "android_client_info": {
+          "package_name": "io.github.abhishekwl.wecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-r730jfl1647hie283t1e7sm16l8jjvk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.abhishekwl.wecare",
+            "certificate_hash": "207bbeb16e56c01fa4a5c87ed316fbda1d5493ec"
+          }
+        },
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:479d72a4cf1d5f9c",
+        "android_client_info": {
+          "package_name": "warlock.root.mu69_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:5d25b17160f310e8",
+        "android_client_info": {
+          "package_name": "warlock.root.mu6_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:36515d35d7270052",
+        "android_client_info": {
+          "package_name": "warlock.root.mu_6_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629755735207:android:a609fff2613e5057",
+        "android_client_info": {
+          "package_name": "warlock.root.musicx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629755735207-2h40n6nmb7t7cmb8bh2tu3aqjv0lh9td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "warlock.root.musicx",
+            "certificate_hash": "c76a310a687e720462a0c9c549e4281cc6d51d60"
+          }
+        },
+        {
+          "client_id": "629755735207-2qkc6tl11cnvsvmi0kvl04jn89i123lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "warlock.root.musicx",
+            "certificate_hash": "29b1a573d2c9924405dfe78d358e1e2975e60ecc"
+          }
+        },
+        {
+          "client_id": "629755735207-p07hjh0b08p87vm1la5g7pq15bec6dqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "warlock.root.musicx",
+            "certificate_hash": "75c6d3b57eac760cfb9a0e691ee94e87d4b71dd3"
+          }
+        },
+        {
+          "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbj7-wji6Jx6WKaai8ASfSSBD5Is2Dz6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629755735207-g0lftn4fc7sici8cm9j5iue8d3j1mrnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4593684947891889~4913794452"
+    }
+  ],
+  "configuration_version": "1"
+}

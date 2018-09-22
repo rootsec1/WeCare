@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeCare</string>
+    <string name="wecare">WeCare.</string>
+    <string name="maps_api_key">AIzaSyB8wL-chhjnWbunNs5JejDHBrb-uLnmJUk</string>
+</resources>

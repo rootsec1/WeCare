@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="24dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainLogoRelativeLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/mainLogoAnimationView"
+            app:lottie_fileName="lottie/cloud_loader.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_centerVertical="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+        <TextView
+            android:id="@+id/mainAppNameTextView"
+            android:layout_toEndOf="@id/mainLogoAnimationView"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/colorTextDark"
+            android:fontFamily="@font/righteous_regular"
+            android:textSize="40sp"
+            android:text="@string/wecare"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/mainUserImageView"
+            android:src="@drawable/ic_person_outline_black_512dp"
+            android:scaleType="centerCrop"
+            app:civ_border_width="1dp"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/colorTextDark"
+            android:layout_marginStart="150dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/mainForumTextView"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/colorTextDark"
+        android:textSize="40sp"
+        android:text="Forum"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/mainLogoRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainPostsRecyclerView"
+        android:layout_below="@id/mainForumTextView"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/mainProgressAnimationView"
+        android:layout_centerInParent="true"
+        app:lottie_fileName="lottie/square_dance.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_width="256dp"
+        android:layout_height="256dp" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        app:menu_icon="@drawable/ic_navigate_next_white_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        app:menu_colorNormal="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mainNeedACabButton"
+            app:fab_size="normal"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            app:fab_label="Hail a cab"
+            app:fab_colorNormal="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mainNeedHelpButton"
+            app:fab_size="normal"
+            android:src="@drawable/ic_call_white_24dp"
+            app:fab_label="I need help ASAP"
+            app:fab_colorNormal="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mainComplaintButton"
+            app:fab_size="normal"
+            android:src="@drawable/ic_add_white_24dp"
+            app:fab_label="Complaint"
+            app:fab_colorNormal="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mainAlarmButton"
+            app:fab_size="normal"
+            android:src="@drawable/ic_notifications_black_24dp"
+            app:fab_label="Alarm"
+            app:fab_colorNormal="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

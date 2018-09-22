@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    tools:context=".SplashActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/splashAnimationView"
+        app:lottie_fileName="lottie/emoji_wink.json"
+        app:lottie_autoPlay="true"
+        android:layout_width="360dp"
+        android:layout_height="360dp" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/righteous_regular"
+        android:textSize="64sp"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

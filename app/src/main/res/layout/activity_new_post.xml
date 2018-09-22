@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewPostActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:layout_weight="1"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/newPostMapFragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/newPostLinearLayout"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <RelativeLayout
+            android:id="@+id/newPostRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/newPostTextView"
+                android:fontFamily="@font/righteous_regular"
+                android:textSize="32sp"
+                android:textColor="@color/colorTextDark"
+                android:text="New Post"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/newPostProfilePictureImageView"
+                app:civ_border_width="1dp"
+                android:src="@drawable/ic_person_outline_black_512dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/newPostContentEditText"
+                android:inputType="textMultiLine|textCapSentences"
+                android:lines="8"
+                android:textColorHint="@color/colorPrimary"
+                android:minLines="6"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:textSize="16sp"
+                android:hint="Please enter your grievance."
+                android:fontFamily="sans-serif-light"
+                android:textColor="@android:color/black"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/newPostButton"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="16sp"
+            android:text="Post Complaint"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

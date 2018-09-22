@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:contentPadding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/postListItemAuthorNameTextView"
+            android:fontFamily="@font/righteous_regular"
+            android:textColor="@color/colorTextDark"
+            android:textSize="24sp"
+            tools:text="Post author Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/postListItemDistanceTextView"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            tools:text="5.7 Km away"
+            android:layout_below="@id/postListItemAuthorNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/postListItemProfilePictureImageView"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_navigate_next_white_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+
+        <TextView
+            android:id="@+id/postListItemPostContentTextView"
+            tools:text="This is the post content klajdlasjdl asjdl aj sljlasdlksajsadkl jasdl saklj."
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/postListItemDistanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
